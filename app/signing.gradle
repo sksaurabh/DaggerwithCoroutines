@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+android {
+  signingConfigs {
+    release {
+      keyAlias 'daggercoroutines-release'
+      keyPassword 'ITHOmptI'
+      storeFile file('keystore/daggercoroutines-release.jks')
+      storePassword 'PoTHatHR'
+    }
+
+    debug {
+      keyAlias 'daggercoroutines-debug'
+      keyPassword 'utherNiC'
+      storeFile file('keystore/daggercoroutines-debug.jks')
+      storePassword 'uRgeSCIt'
+    }
+  }
+}
