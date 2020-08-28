@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.saurabh.daggercoroutines">
+    package="com.saurabh.dagger2withcoroutines">
 
   <uses-permission android:name="android.permission.INTERNET"/>
 
   <application
-      android:name="com.saurabh.daggercoroutines.BaseApplication"
+      android:name="com.saurabh.dagger2withcoroutines.BaseApplication"
       android:allowBackup="true"
       android:icon="@mipmap/ic_launcher"
       android:label="@string/app_name"
@@ -18,7 +18,7 @@
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
 
     <activity
-        android:name="com.saurabh.daggercoroutines.ui.home.HomeActivity">
+        android:name="com.saurabh.dagger2withcoroutines.ui.home.HomeActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
 
@@ -26,7 +26,7 @@
       </intent-filter>
     </activity>
 
-    <activity android:name="com.saurabh.daggercoroutines.ui.joke.ShowJokeActivity"/>
+    <activity android:name="com.saurabh.dagger2withcoroutines.ui.joke.ShowJokeActivity"/>
 
   </application>
 

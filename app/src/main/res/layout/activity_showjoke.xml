@@ -7,7 +7,7 @@
 
     <variable
         name="viewModel"
-        type="com.saurabh.daggercoroutines.ui.joke.ShowJokeViewModel"
+        type="com.saurabh.dagger2withcoroutines.ui.joke.ShowJokeViewModel"
         />
   </data>
 
